@@ -1,0 +1,165 @@
+/* Intro.css */
+
+/* Existing styles */
+
+/* New Animation */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    overflow: hidden;
+    background: #f2f2f2;
+    padding: 80px 20px;
+}
+
+.hero-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.hero-text.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Button Styles */
+.btn-primary,
+.btn-secondary {
+    margin-top: 20px;
+}
+
+/* Your existing CSS styles for the hero section */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    color: white;
+    height: 80vh;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 40px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.hero-text button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #f127e6;
+    color: white;
+}
+
+.hero-text .btn-secondary {
+    background: transparent;
+    border: 2px solid white;
+}
+
+.hero-text .btn-primary {
+    margin-right: 10px;
+}
+
+/* Hero Image Styles */
+.hero-image {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Effects */
+.hero:hover .hero-text button {
+    background-color: #2c5364;
+    transform: scale(1.1);
+}
+
+.hero:hover .hero-image img {
+    transform: rotate(10deg);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+/* Intro.css */
+/* ... Existing styles ... */
+
+/* New Animation for Hero Text */
+.hero-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.hero-text.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ... Existing styles ... */
+/* Intro.css */
+/* ... Existing styles ... */
+
+/* Hover Effect for Hero Image */
+.hero-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transform-origin: center center;
+}
+
+.hero:hover .hero-image img {
+    transform: rotate(10deg) scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ... Existing styles ... */
+/* Intro.css */
+
+/* Existing styles */
+
